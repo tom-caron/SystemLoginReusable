@@ -67,6 +67,7 @@ Assurez-vous d'avoir installé :
 ### **3. Lancement du projet**
    ```bash
     npm start
+   ```
 
 ---
 
@@ -84,29 +85,35 @@ Assurez-vous d'avoir installé :
     "email": "test@example.com",
     "password": "securepassword"
     }
+   ```
 
 ### **2. Connexion d'utilisateur**
     URL : /api/auth/login
     Méthode : POST
     Description : Authentifie un utilisateur et renvoie un token JWT.
 
+      ```bash
     **Corps de la requête (JSON)**
     {
     "email": "test@example.com",
     "password": "securepassword"
     }
+       ```
 
 ### **3. Route protégée**
     URL : /api/auth/profile
     Méthode : GET
     Description : Accède à une ressource protégée avec un JWT valide.
 
+   ```bash
     **Headers**
     {
     "Authorization": "Bearer <votre_token>"
     }
+   ```
 
 ## **Exemple d'intégration avec l'utilisation de axios**
+   ```bash
     const axios = require('axios');
 
     const API_URL = 'http://localhost:5000/api/auth';
