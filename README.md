@@ -92,13 +92,13 @@ Assurez-vous d'avoir installé :
     Méthode : POST
     Description : Authentifie un utilisateur et renvoie un token JWT.
 
-      ```bash
+   ```bash
     **Corps de la requête (JSON)**
     {
     "email": "test@example.com",
     "password": "securepassword"
     }
-       ```
+   ```
 
 ### **3. Route protégée**
     URL : /api/auth/profile
