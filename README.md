@@ -34,7 +34,7 @@ Ce projet est un système de login réutilisable construit avec Node.js, Express
    ├── .env                 # Variables d'environnement
    ├── package.json         # Métadonnées et dépendances du projet
    └── README.md            # Documentation
-
+   ```
 ---
 
 ## **Démarrage**
