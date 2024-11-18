@@ -49,7 +49,7 @@ Assurez-vous d'avoir installé :
 ### **2. Installation**
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votreutilisateur/systeme-login-reutilisable.git
+   git clone https://github.com/tom-caron/SystemLoginReusable.git
    cd systeme-login-reutilisable
 
 2. Installez les dépendances :
@@ -57,6 +57,7 @@ Assurez-vous d'avoir installé :
     npm install
 
 3. Créer un fichier .env dans le répertoire à la racine et ajouter les lignes suivantes :
+   ```bash
     PORT=5000
     MONGO_URI=mongodb://localhost:27017/loginSystem
     JWT_SECRET=secret_pour_votre_jwt
@@ -64,6 +65,7 @@ Assurez-vous d'avoir installé :
 ---
 
 ### **3. Lancement du projet**
+   ```bash
     npm start
 
 ---
@@ -75,6 +77,7 @@ Assurez-vous d'avoir installé :
     Méthode : POST
     Description : Permet d'enregistrer un nouvel utilisateur.
 
+   ```bash
     **Corps de la requête (JSON)**
     {
     "username": "testuser",
