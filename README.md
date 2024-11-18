@@ -22,17 +22,18 @@ Ce projet est un système de login réutilisable construit avec Node.js, Express
 ---
 
 ## **Structure du projet**
-.
-├── models
-│   └── User.js          # Schéma Mongoose pour les utilisateurs
-├── routes
-│   └── auth.js          # Routes d'authentification
-├── middleware
-│   └── authMiddleware.js # Middleware pour l'authentification JWT
-├── index.js            # Point d'entrée de l'application
-├── .env                 # Variables d'environnement
-├── package.json         # Métadonnées et dépendances du projet
-└── README.md            # Documentation
+   ```
+   .
+   ├── models
+   │   └── User.js          # Schéma Mongoose pour les utilisateurs
+   ├── routes
+   │   └── auth.js          # Routes d'authentification
+   ├── middleware
+   │   └── authMiddleware.js # Middleware pour l'authentification JWT
+   ├── index.js            # Point d'entrée de l'application
+   ├── .env                 # Variables d'environnement
+   ├── package.json         # Métadonnées et dépendances du projet
+   └── README.md            # Documentation
 
 
 ## **Démarrage**
